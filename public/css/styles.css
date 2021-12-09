@@ -1,0 +1,103 @@
+html {
+  background-color:white;
+  min-height: 1000px;
+  font-family: 'courier';
+}
+
+h1 {
+  color:white;
+  padding: 10px;
+  
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background:black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-color:white;
+
+}
+
+#heading {
+  background-color:black;
+  text-align: center;
+  font-family: 'courier';
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: white;
+  
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+}
+
+form.item{
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  
+  background-color:black;
+  color:white;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 2 px;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+  font-family: 'courier';
+}
+
+input[type="text"]:focus {
+  outline: none;
+  color: white;
+  font-family: 'courier';
+}
+
+::placeholder {
+  color:rgb(207, 200, 200);
+  opacity: 1;
+  font-family: 'courier'
+}
+
+footer {
+  
+  color:black;
+  text-align: center;
+}
